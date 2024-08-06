@@ -21,7 +21,7 @@ This poses two problems. Firstly, we need to teach the system how to deal with s
 Secondly, we need to move the NC from the input bus, because it is not automatically moved to the output on recipe completion.
 
 The first problem has a rather simple solution, but comes with some caveats. 
-We simply add the NC to *bo[post.md](README)th* the input and the output of patterns.
+We simply add the NC to *both* the input and the output of patterns.
 This comes at the cost of having to add copies of the NC to your system.
 The number of NCs of a particular type you will need depends on how many parallels your system could theoretically do.
 As an example, if an item is requested that requires both `iron plates` and `steel plates` using `circuit 1` as NC, 
